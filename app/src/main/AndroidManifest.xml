@@ -38,16 +38,20 @@
             android:value="@string/ThemeAuthor"/>
 
         <meta-data
+            android:name="Substratum_Email"
+            android:value="zawzawit.459@gmail.com"/>
+
+        <meta-data
+            android:name="Substratum_Samsung"
+            android:value="false"/>
+        
+        <meta-data
             android:name="Substratum_ThemeReady"
             android:value="all"/>
 
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="7.0.2"/>
+            android:value="7.0.6"/>
 
     </application>
 </manifest>
-
-
-
-
