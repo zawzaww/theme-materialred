@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="plus_AppsDialogText" parent="@*android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="common.WidgetDropDownItemLight" parent="@*android:style/Widget.DropDownItem">
+        <item name="android:textColor">@*android:color/primary_text_dark</item>
+        <item name="android:background">@*android:color/holo_purple</item>
+    </style>
+    <style name="plus_ShareBox_ComposeUpdate.Editor" parent="@style/plus_ShareBox_ComposeUpdate">
+        <item name="android:popupBackground">@android:drawable/alert_dark_frame</item>
+    </style>
+    <style name="plus_ShareBox_ComposeUpdate" />
+    <style name="gh_articleTitleStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+    <style name="gh_browseAllArticlesTitleStyle" parent="@style/common_SelectableItem">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffbdbdbd</item>
+    </style>
+    <style name="gh_cardButtonStyle" parent="@style/common_SelectableItem">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffbdbdbd</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="gh_cardTitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="common_SelectableItem" parent="@style/common.Widget.Base.SelectableItem" />
+    <style name="common.Widget.Base.SelectableItem" parent="">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+    <style name="gh_searchItemSnippetStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+    <style name="gh_searchItemTitleStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+    <style name="gh_searchViewAutoCompleteTextViewStyleLight" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#e1ffffff</item>
+    </style>
+    <style name="gh_textAppearanceSearchResultTitleLight" parent="@style/TextAppearance.AppCompat.Light.SearchResult.Title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="@style/TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="GrantCredentialsDialogText" parent="@*android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <style name="common.Activity.Light" parent="@*android:style/Theme.Light" />
+    <style name="plus_BottomActionBar.Label" parent="@style/Theme.Plus">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@*android:color/primary_text_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="Theme.Plus" parent="@style/common.Activity.Light">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownItemStyle">@style/common.WidgetDropDownItemLight</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

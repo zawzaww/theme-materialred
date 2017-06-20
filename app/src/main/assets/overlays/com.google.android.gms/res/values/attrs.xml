@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buttonBarStyle" format="reference" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="dividerHorizontal" format="reference" />
+    <attr name="auth_setup_wizard_divider_color" format="reference" />
+    <attr name="auth_setup_wizard_link_color" format="reference|color" />
+    <attr name="isLightTheme" format="boolean" />
+    <attr name="colorControlHighlight" format="color" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorControlNormal" format="color" />
+</resources>
