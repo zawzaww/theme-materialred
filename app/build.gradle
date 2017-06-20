@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "substratum.zawzaw.purezmaterialred"
+        minSdkVersion 24
+        targetSdkVersion 25
+        versionCode 3
+        versionName '3.0'
+    }
+    buildTypes {
+        def BOOLEAN = "boolean"
+        def TRUE = "true"
+        def FALSE = "false"
+        def ANTI_PIRACY = "ENABLE_ANTI_PIRACY"
+        def SUBSTRATE_MODULE = "SUBSTRATE_MODULE"
+
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE ) // CHANGE FALSE TO TRUE TO ENABLE
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE) // CHANGE FALSE TO TRUE TO ENABLE
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.javiersantos:PiracyChecker:0.0.2'
+    compile project(':substrate')
+    compile 'com.android.support:appcompat-v7:25.1.1'
+}

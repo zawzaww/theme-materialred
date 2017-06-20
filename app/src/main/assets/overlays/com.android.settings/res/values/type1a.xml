@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/material_grey_850</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_800</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_850</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+        <item name="android:textColorPrimaryInverse">#e0e0e0</item>
+    </style>
+</resources>
