@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />
+
+    <style name="BugleTheme.ConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme.BigTitle">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+    <style name="BugleTheme.ArchivedConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarStyle">?buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_800</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_850</item>
+        <item name="android:statusBarColor">@*android:color/material_grey_850</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+    </style>
+</resources>

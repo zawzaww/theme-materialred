@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/material_grey_800</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_850</item>
+        <item name="*com.google.android.dialer:colorPrimaryDark">@*android:color/material_grey_850</item>
+        <item name="android:statusBarColor">@*android:color/material_grey_850</item>
+    </style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="*com.google.android.dialer:statusBarBackground">@*android:color/material_grey_850</item>
+    </style>
+</resources>
