@@ -1,15 +1,20 @@
 # PureZ MaterialRed Theme
 
-XDA Support Thread...
-https://forum.xda-developers.com/android/themes/theme-purez-material-dark-theme-t3549024
+Substratum Theme Engine: 
+PureZ MaterialRed Theme for Substratum.
 
-Substratum Theme Engine : PureZ MaterialRed Theme
-
-Requirements to use:
+Requirements:
  - Android 7.0 and Up
  - Substratum/OMS Support ROM
  - Substratum Theme Manager
- (Get on Google Playstore)
+
+ How To Install:
+ - Download theme
+ - Open Substratum Theme Manager
+ - Select theme Overlays
+ - Apply
+ - Restart SystemUI
+ - Done
  
  //Happy Theming
  
