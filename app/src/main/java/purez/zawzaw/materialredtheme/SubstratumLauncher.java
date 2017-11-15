@@ -1,4 +1,4 @@
-package substratum.zawzaw.purezmaterialred;
+package purez.zawzaw.materialredtheme;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,7 +31,7 @@ public class SubstratumLauncher extends Activity{
 
     private static final Boolean THEME_READY = false;
 
-    private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
+    private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.purez";
 
     private void startAntiPiracyCheck() {
 
@@ -104,7 +104,7 @@ public class SubstratumLauncher extends Activity{
     private void getSubstratumFromPlayStore() {
         String playURL =
                 "https://play.google.com/store/apps/details?" +
-                        "id=projekt.substratum&hl=en";
+                        "id=projekt.purez&hl=en";
         Intent i = new Intent(Intent.ACTION_VIEW);
         Toast toast = Toast.makeText(this, getString(R.string.toast_substratum),
                 Toast.LENGTH_SHORT);
