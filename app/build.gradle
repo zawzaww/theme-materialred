@@ -9,13 +9,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    // Whether the zawzaw assets should be encrypted or not,
-    // this makes it harder for pirates and kangers! (DEFAULT: true)
+    // Theme Encrypt Assets
     SHOULD_ENCRYPT_ASSETS = true
 
-    // Whether this zawzaw supports third party zawzaw systems, we will not be able to help you debug
-    // your themes on external theming systems, so the team will NOT respond to external systems if
-    // there are issues with your zawzaw (DEFAULT: false)
+    // Support Third-party Systems
     SUPPORTS_THIRD_PARTY_SYSTEMS = false
 
     // Encryption values, do not touch as we generate a random key every time you compile!
@@ -29,16 +26,12 @@ ext {
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.0'
+    buildToolsVersion '27.0.1'
     defaultConfig {
-        // If you're planning to change up the package name, ensure you have read the readme
-        // thoroughly!
         applicationId "purez.zawzaw.materialredtheme"
-        // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
-        // to the purez repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
-        targetSdkVersion 26
-        // Both versions must be changed to increment on Play Store/user's devices
+        targetSdkVersion 27
+        // PureZ Theme Version Code
         versionCode 4
         versionName '4.1'
 
@@ -71,8 +64,6 @@ android {
         ndkBuild {
             path 'src/main/jni/Android.mk'
         }
-    }
-    productFlavors {
     }
 }
 

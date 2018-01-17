@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="purez.zawzaw.materialredtheme"
-          android:installLocation="internalOnly">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="purez.zawzaw.materialredtheme"
+    android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
     <uses-permission android:name="android.permission.INTERNET" />
-	
-	<uses-feature
+
+    <!--Set to true for OMS Support ROM only block to be enabled-->
+    <uses-feature
         android:name="projekt.purez.zawzaw"
         android:required="false" />
 
@@ -58,9 +60,11 @@
         <meta-data
             android:name="Substratum_HeroOverride"
             android:value="@string/ThemeHeroOverride"/>
+
+        <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="11.1.0"/>
+            android:value="11.5.0"/>
         <meta-data
             android:name="Substratum_Encryption"
             android:value="@string/encryption_status"/>
@@ -69,4 +73,5 @@
             android:value="@bool/SUPPORTS_THIRD_PARTY_THEME_SYSTEMS" />
 
     </application>
+
 </manifest>
