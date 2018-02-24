@@ -4,23 +4,11 @@ import purez.zawzaw.materialredtheme.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYST
 
 object Constants {
 
-    const internal val THEME_READY_GOOGLE_APPS = false
-
     const internal val SUBSTRATUM_FILTER_CHECK = false
 
     const val ENFORCE_MINIMUM_SUBSTRATUM_VERSION = true
     const val MINIMUM_SUBSTRATUM_VERSION = 712 // 510 is the final MM build
     const val ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS = SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
-
-    val THEME_READY_PACKAGES = arrayOf(
-            "com.google.android.gm",
-            "com.google.android.googlequicksearchbox",
-            "com.android.vending",
-            "com.google.android.apps.plus",
-            "com.google.android.talk",
-            "com.google.android.youtube",
-            "com.google.android.inputmethod.latin"
-    )
 
     val BLACKLISTED_APPLICATIONS = arrayOf(
             "cc.madkite.freedom",
